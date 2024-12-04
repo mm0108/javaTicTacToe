@@ -10,7 +10,7 @@ public class TicTacToeWithScore extends JFrame implements ActionListener {
     private int p2Score = 0; // P2의 승점
     private int ties = 0;    // 비김 횟수
     private JLabel scoreLabel; // 점수 표시용 라벨
-    int a = 0;
+    
     public TicTacToeWithScore() {
         // 기본 창 설정
         setTitle("Tic Tac Toe with Score");
